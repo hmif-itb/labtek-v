@@ -8,11 +8,11 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" href="/favicon.png" />
-        {Config.GA_TRACKING_ID && (
+        {process.env.NEXT_PUBLIC_GA_TRACKING_ID && (
           <>
             <script
               async
-              src={`https://www.googletagmanager.com/gtag/js?id=${Config.GA_TRACKING_ID}`}
+              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_TRACKING_ID}`}
             />
             <script
               dangerouslySetInnerHTML={{
@@ -20,9 +20,8 @@ function MyApp({ Component, pageProps }) {
                       window.dataLayer = window.dataLayer || [];
                       function gtag(){dataLayer.push(arguments);}
                       gtag('js', new Date());
-                      gtag('config', '${Config.GA_TRACKING_ID}', {
-                        page_path: window.location.pathname,
-                        optimize_id: '${Config.GOOGLE_OPTIMIZE_ID}'
+                      gtag('config', '${process.env.NEXT_PUBLIC_GA_TRACKING_ID}', {
+                        page_path: window.location.pathname
                       });
                   `,
               }}
