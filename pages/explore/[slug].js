@@ -1,5 +1,6 @@
 import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
+import Head from "next/head";
 import { useRouter } from "next/router";
 import { Scene } from "aframe-react";
 import data from "../../data";
@@ -24,6 +25,9 @@ export default function Explore() {
 
   return (
     <>
+      <Head>
+        <title>Explore {entry.title}</title>
+      </Head>
       <div className="w-full h-full absolute">
         {appRendered && (
           <Scene embedded>

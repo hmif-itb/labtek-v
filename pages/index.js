@@ -7,7 +7,6 @@ export default function Home() {
     <div className="max-w-screen-lg mx-auto px-4">
       <Head>
         <title>Welcome to Labtek V</title>
-        <link rel="icon" href="/hmiflogo.png" />
       </Head>
       <div className="my-4">
         <img src="/hmiflogo.png" width="40" alt="Logo HMIF" />
