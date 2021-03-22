@@ -23,8 +23,7 @@ module.exports = [
   {
     slug: "gudang-sekre-2",
     title: "Gudang Sekre 2 HMIF",
-    body:
-      "Gudang ini baru dibuat tahun 2019 biar sekre 2 gak berantakan.",
+    body: "Gudang ini baru dibuat tahun 2019 biar sekre 2 gak berantakan.",
     src: "/360/gudangsekre2.jpg",
   },
   {
@@ -44,8 +43,7 @@ module.exports = [
   {
     slug: "selasar-tu",
     title: "Selasar TU",
-    body:
-      "Tempat yang biasa dipake rapat atau nubes, walaupun gaada colokan.",
+    body: "Tempat yang biasa dipake rapat atau nubes, walaupun gaada colokan.",
     src: "/360/selasartu.jpg",
   },
   {
@@ -59,77 +57,77 @@ module.exports = [
     slug: "lift",
     title: "Lift Labtek V",
     body:
-      "Lift ini baru diganti sejak pandemi, jadi sekarang liftnya pake merek mahal (Kone).",
+      "Kelas-kelas IF berada di lantai 3 dan 4. Biar gak capek, pakai lift dong. Tapi kalau mau leg day, bisa pakai tangga juga kok. Anyway, sekarang jadi lebih mantap nih Liftnya.",
     src: "/360/lift.jpg",
   },
   {
     slug: "jembatan-timur",
     title: "Jembatan Timur Labtek V-VI",
     body:
-      "Tempat ini biasanya dipake buat foto-foto kalo abis seminar atau sidang.",
+      "Selain jadi penghubung 2 gedung, tempat ini seringkali jadi spot foto setelah sidang atau seminar bersama teman dekat. Dari sini kita bisa melihat pemandangan Plaza Widya dan Intel.",
     src: "/360/jembatantimur.jpg",
   },
   {
     slug: "jembatan-barat",
     title: "Jembatan Barat Labtek V-VI",
     body:
-      "Tempat ini biasanya dipake buat foto-foto buat organogram atau foto lab.",
+      "Penghubung lain antara 2 gedung itu. View disini juga tidak kalah ciamik dengan hiasan GKU Barat tempat kenangan TPB berada.",
     src: "/360/jembatanbarat.jpg",
   },
   {
     slug: "parkiran",
     title: "Parkiran Labtek V",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Rangkaian Wisuda selalu berakhir disini. Tempat prosesi terakhir. Disini wisudawan diangkat keanggotaannya menjadi Anggota Kehormatan.",
     src: "/360/parkiran.jpg",
   },
   {
     slug: "lapcin",
     title: "Lapcin",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Lapangan Cinta, entahlah, apakah cinta pasti diterima jika menembak disini? mungkin kamu harus coba, yang jelas, tempat ini seringkali jadi salah satu spot berkumpul sebelum osjur dimulai. Forum Angkatan semasa TPB juga sering diadakan disini, ingat gak? Selain itu, acara-acara gede sering buka stand disini lho.",
     src: "/360/lapcin.jpg",
   },
   {
     slug: "lapbas",
     title: "Lapbas",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Lapangan basket, meskipun ada lapangan voli di sebelahnya, lapangan voli harus mengalah untuk memberikan nama kepada lapangan basket. Waktu TPB, lomba antar fakultas seringkali dilakukan disini nih. Ingat gak? Supporteran malam itu.",
     src: "/360/lapbas.jpg",
   },
   {
     slug: "intel",
     title: "Kolam Intel",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Meski bernama Intel, bukan berarti isinya anggota BIN yang menyamar berjualan bakso atau nasgor ya. Intel disini merupakan akronim dari Indonesia Tenggalam. Pada bagian bawah kolam, kamu bisa melihat peta Indonesia. Airnya sering keruh, baru jernih biasanya kalau mau ada acara gede, kaya wisuda. Disini, kalau kalian hoki, bisa tuh melihat pelangi yang timbul dari efek cahaya seperti yang dijelasin di Fisika TPB lah pokoknya.",
     src: "/360/intel.jpg",
   },
   {
     slug: "plawid",
     title: "Plaza Widya Nusantara",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Konon katanya, prosesi penerimaan tidak lengkap kalau belum berfoto disini. Pemandangan 4 labtek memang megah banget sih dari tempat ini, memang mantap dijadikan spot foto andalan di ITB. Mitos lain menyebu kalau kamu berteriak di titik gema disini, suaramu akan terdengar di seluruh penjuru ITB. Karen itulah, seringkali orang-orang penting melakukan orasi di tempat ini.",
     src: "/360/plawid.jpg",
   },
   {
     slug: "boulevard",
     title: "Boulevard",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Sebanarnya ini cuma jalan, yang mengubungkan gerbang depan dengan information Center. Tapi, pemandangan sekitar Boulevard ini indah guys. Sore hari jalan lewat sini, pulang dari kampus, beuh, rasanya mantep banget, nenangin diri gitu deh. Tapi kamu harus hati-hati, karena banyak 'ranjau' di tempat ini setelah hujan turun hihihi.",
     src: "/360/boulevard.jpg",
   },
   {
     slug: "atas-ic",
     title: "Atas Information Center",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Information Center tuh terletak diantara Campus Center Barat dan Timur. Disini kamu bisa melihat keduanya, kamu juga bisa melihat pemandangan 4 Labtek kembar dari tempat ini.",
     src: "/360/atasic.jpg",
   },
   {
     slug: "depan-perpus",
     title: "Depan Perpustakaan Pusat",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Tepat berada di depan sumber pengetahuan utama di ITB. Ada sebuah spot yang biasa kita sebut sebagai Sunken atau tenggelam, disana banyak banget sekre-sekre unit-unit yang tentunya kece-kece. Tempat ini bakal dibanjiri banget lho sama orang-orang ketika wisuda. Karena dari sini, view Orasi dan Prosesi tiap himpunan punya view ter-daebak.",
     src: "/360/depanperpus.jpg",
   },
 ];
