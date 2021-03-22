@@ -10,7 +10,7 @@ module.exports = [
     slug: "depan-sekre-1",
     title: "Depan Sekre 1 HMIF",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Di sini ada kursi+meja yang super PW untuk nubes. Sangat aksesibel karena dekat lift, WC, dan musholla.",
     src: "/360/depansekre1.jpg",
   },
   {
@@ -24,56 +24,56 @@ module.exports = [
     slug: "gudang-sekre-2",
     title: "Gudang Sekre 2 HMIF",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Gudang ini baru dibuat tahun 2019 biar sekre 2 gak berantakan.",
     src: "/360/gudangsekre2.jpg",
   },
   {
     slug: "depan-sekre-2",
     title: "Depan Sekre 2 HMIF",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Gak banyak yang bisa diliat di sini, tapi keliatan kalo sekre 2 dikunci pake kunci elektronik!",
     src: "/360/depansekre2.jpg",
   },
   {
     slug: "dingdong",
     title: "Dingdong (Selasar Timur)",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Ini adalah tempat multifungsi--bisa dipake nubes, rapat, dan kaderisasi.",
     src: "/360/dingdong.jpg",
   },
   {
     slug: "selasar-tu",
     title: "Selasar TU",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Tempat yang biasa dipake rapat atau nubes, walaupun gaada colokan.",
     src: "/360/selasartu.jpg",
   },
   {
     slug: "selasar-basdat",
     title: "Selasar Basdat",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Tempat yang biasa dipake rapat atau nubes, soalnya ada internet dan colokan.",
     src: "/360/selasarbasdat.jpg",
   },
   {
     slug: "lift",
     title: "Lift Labtek V",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Lift ini baru diganti sejak pandemi, jadi sekarang liftnya pake merek mahal (Kone).",
     src: "/360/lift.jpg",
   },
   {
     slug: "jembatan-timur",
     title: "Jembatan Timur Labtek V-VI",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Tempat ini biasanya dipake buat foto-foto kalo abis seminar atau sidang.",
     src: "/360/jembatantimur.jpg",
   },
   {
     slug: "jembatan-barat",
     title: "Jembatan Barat Labtek V-VI",
     body:
-      "Lorem ipsum dolor sit amet",
+      "Tempat ini biasanya dipake buat foto-foto buat organogram atau foto lab.",
     src: "/360/jembatanbarat.jpg",
   },
   {
