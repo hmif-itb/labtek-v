@@ -1,33 +1,27 @@
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 import Head from "next/head";
 import NextNprogress from "nextjs-progressbar";
+import * as gtag from "../lib/gtag";
 import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
+
   return (
     <>
       <Head>
         <link rel="icon" href="/favicon.png" />
-        {process.env.NEXT_PUBLIC_GA_TRACKING_ID && (
-          <>
-            <script
-              async
-              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_TRACKING_ID}`}
-            />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                      window.dataLayer = window.dataLayer || [];
-                      function gtag(){dataLayer.push(arguments);}
-                      gtag('js', new Date());
-                      gtag('config', '${process.env.NEXT_PUBLIC_GA_TRACKING_ID}', {
-                        page_path: window.location.pathname
-                      });
-                  `,
-              }}
-            />
-          </>
-        )}
       </Head>
       <NextNprogress
         color="#29D"
