@@ -20,11 +20,11 @@ export default function Home() {
         </p>
       </div>
       <div className="mt-8">
-        <div className="mt-6 grid md:grid-cols-2 gap-4">
+        <div className="mt-6 grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {data.map((entry) => (
             <div className="shadow-sm rounded-sm p-4 border border-gray-200" key={entry.slug}>
-              <h3 className="font-bold text-lg">{entry.title}</h3>
-              <p className="text-gray-500 mt-2">{entry.body}</p>
+              <h3 className="font-bold">{entry.title}</h3>
+              <p className="text-gray-500 mt-1 text-sm">{entry.body}</p>
               <p className="mt-2 text-blue-500 cursor-pointer">
                 <Link href={`/explore/${entry.slug}`}>
                   Lihat &rarr;
@@ -33,6 +33,9 @@ export default function Home() {
             </div>
           ))}
         </div>
+      </div>
+      <div className="mt-10 mb-6 text-gray-500 text-sm">
+        Copyright &copy; 2021 HMIF ITB
       </div>
     </div>
   );
