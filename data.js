@@ -130,4 +130,11 @@ module.exports = [
       "Tepat berada di depan sumber pengetahuan utama di ITB. Ada sebuah spot yang biasa kita sebut sebagai Sunken atau tenggelam, disana banyak banget sekre-sekre unit-unit yang tentunya kece-kece. Tempat ini bakal dibanjiri banget lho sama orang-orang ketika wisuda. Karena dari sini, view Orasi dan Prosesi tiap himpunan punya view ter-daebak.",
     src: "/360/depanperpus.jpg",
   },
+  {
+    slug: "depan-tvst",
+    title: "Depan TVST",
+    body:
+      "Di sini kamu bisa melihat empat gedung yang bentuknya mirip-mirip: TVST, Oktagon, Labdas Fisika, dan Gedung Kerjasama PLN. Biasanya anak-anak TPB bakalan sering 'main' ke daerah sini.",
+    src: "/360/depantvst.jpg",
+  },
 ];

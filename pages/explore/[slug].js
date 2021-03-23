@@ -31,11 +31,11 @@ export default function Explore() {
       </Head>
       <div className="w-full h-full absolute">
         {appRendered && (
-          <Scene embedded>
+          <Scene embedded light="defaultLightsEnabled: false">
             <a-assets>
               <img src={entry.src} id="sky" />
             </a-assets>
-            <a-sky src="#sky" rotation="0 90 0"></a-sky>
+            <a-sky src="#sky" rotation="0 90 0" material="shader:flat"></a-sky>
             <a-camera look-controls="reverseMouseDrag: true" />
           </Scene>
         )}
